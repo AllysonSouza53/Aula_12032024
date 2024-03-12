@@ -56,11 +56,14 @@ namespace Aula_12032024
 
             //analise de aprovação
             //entrada e declarações
-            Console.Write("media do aluno: ");
-            double M = double.Parse(Console.ReadLine());
+            Console.Write("ano de nascimento: ");
+            int DN= int.Parse(Console.ReadLine());
 
-            Console.Write("Porcentagem de presença: ");
-            int P = int.Parse(Console.ReadLine());
+            Console.Write("ano de ingresso na empresa: ");
+            int DI = int.Parse(Console.ReadLine());
+
+            int ano = 2024;
+
 
             //processamento e saída
         }
